@@ -15,10 +15,13 @@ context('Funcionalidade Login', () => {
     afterEach(() => {
         cy.screenshot()
     });
+    
 
-    it('Login com sucesso usando Comando customizado', () => {
-        cy.login(dadosLogin.usuario, dadosLogin.senha)
-        cy.get('.page-title').should('contain', 'Minha conta')
+    it.only('Login com sucesso usando Comando customizado', () => {
+        cy.login(dadosLogin.usuario, dadosLogin.senha);
+        cy.logout();
+        cy.login(dadosLogin.usuario, dadosLogin.senha);
+        cy.get('.page-title').should('contain', 'Minha conta');
     });
 
     it('Login usando fixture', () => {
@@ -28,7 +31,7 @@ context('Funcionalidade Login', () => {
         cy.get('.page-title').should('contain', 'Minha conta')
     });
 
-    it.skip('Deve fazer login com sucesso - sem otimização', () => {
+    it('Deve fazer login com sucesso - sem otimização', () => {
         cy.get('#username').type(dadosLogin.usuario)
         cy.get('#password').type(dadosLogin.senha, { log: false })
         cy.get('.woocommerce-form > .button').click()

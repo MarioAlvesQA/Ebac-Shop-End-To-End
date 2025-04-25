@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Celeste Sports Bra",
+        "quantity": 1,
+        "size": "M",
+        "color": "Yellow" 
+    },
+
+    {
+        "id": 2,
+        "name": "Circe Hooded Ice Fleece",
+        "quantity": 2,
+        "size": "S",
+        "color": "Purple"
+    },
+
+    {
+        "id": 3,
+        "name": "Eos V-Neck Hoodie",
+        "quantity": 2,
+        "size": "S",
+        "color": "Orange"   
+    },
+
+    {
+        "id": 4,
+        "name": "Selene Yoga Hoodie",
+        "quantity": 2,
+        "size": "L",
+        "color": "White",
+        "price": 42.00 
+    },
+
+    {
+        "id": 5,
+        "name": "Josie Yoga Jacket",
+        "quantity": 9,
+        "size": "XS",
+        "color": "Gray"   
+    },
+
+    {
+        "id": 6,
+        "name": "Stellar Solar Jacket",
+        "quantity": 11,
+        "size": "L",
+        "color": "Yellow"   
+    },
+
+    {
+        "id": 7,
+        "name": "Aero Daily Fitness Tee",
+        "quantity": 23,
+        "size": "XL",
+        "color": "Brown"   
+    },
+
+    {
+        "id": 8,
+        "name": "Atlas Fitness Tank",
+        "quantity": 7,
+        "size": "M",
+        "color": "Blue"   
+    },
+
+    {
+        "id": 9,
+        "name": "Zeppelin Yoga Pant",
+        "quantity": 17,
+        "size": "34",
+        "color": "Red"   
+    }
+]
