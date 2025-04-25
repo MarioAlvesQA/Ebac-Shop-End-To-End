@@ -1,4 +1,4 @@
-# Ebac-Shop-End-To-End
+# Ebac-Shop End-To-End (E2E)
 - Projeto End To End para E-Commerce EBAC Shop
 - Este projeto possui 2 testes End to End diferentes:
 
